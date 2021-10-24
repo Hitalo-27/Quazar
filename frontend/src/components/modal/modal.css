@@ -1,0 +1,21 @@
+#video {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.videoTitle {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+   width: 6rem;
+   height: 6rem;
+}
+
+.videoText {
+    margin: 0 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}

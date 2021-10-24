@@ -1,0 +1,50 @@
+.CardValuesContainer {
+    /* height: 400px;  */
+    /* width: min-content; */
+    margin-left: 1rem;
+    padding: 4rem;
+
+    background-color: #fff;
+    border-radius: 20px; 
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+
+.CardValueImg {
+    width: min-content;
+    
+}
+
+.CardValueImg img {
+    width: 240px; 
+}
+
+.CardValueTitle {
+    
+    font-size: 22px;
+    
+}
+
+
+.CardValueText {
+    width: 240px; 
+    margin-top: 10px;
+    text-align: justify;
+    
+}
+
+.CardValueText p{
+    margin-top: 5px;
+    
+}
+
+@media (max-width: 890px) {
+    .CardValueText {
+        width: 300px; 
+    }
+
+    .CardValueImg img {
+        margin-left: 30px; 
+    }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "pagina-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
+    "react": "^17.0.2",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-spring": "^9.3.0",
+    "react-video-js-player": "^1.1.1",
+    "sass": "^1.43.3",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "patch-package"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

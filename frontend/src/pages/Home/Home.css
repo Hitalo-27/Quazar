@@ -1,0 +1,126 @@
+.titledescEmpresa {
+  padding-top: 2rem;
+  height: min-content;
+  background: linear-gradient(90deg, #f7f7f7 0%, #f1f1f1 90%);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+
+.barDescContainer {
+  background: linear-gradient(90deg, #f7f7f7 0%, #f1f1f1 90%);
+}
+
+.barDesc {
+  height: 320px;
+
+  display: flex;
+
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* .imgDescBar {
+   
+} */
+
+.imgDesc {
+  width: 19.7rem;
+  /* margin-left: 26%; */
+}
+
+.textDescEmpresa {
+  margin-top: -1rem;
+  margin-left: 60px;
+  margin-right: 25px;
+  width: 40rem;
+
+  text-align: justify;
+  font-size: 1.25rem;
+  /* font-size: 20px; */
+}
+.containerColor {
+  height: 690px;
+  background-color: #fff;
+  position: static;
+}
+
+.CardTitleValue {
+  font-size: 35px;
+  margin-bottom: 2.5rem;
+}
+
+.videoMainText {
+  margin: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+}
+
+.fundo{
+    padding: 4rem;
+    background: linear-gradient(90deg, #f7f7f7 0%, #f1f1f1 90%);
+}
+
+.projetoP{
+  margin-top: 10%;
+}
+
+.projetoP2{
+  margin-bottom: 10%;
+}
+
+.projetoH1{
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+
+.button {
+  width: 150px;
+  background: linear-gradient(90deg, #100250 0%, #025039 100%);
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+.button:hover {
+  background: linear-gradient(90deg, #0b0138 0%, #023828 100%);
+}
+
+#barDescContainerReparo {
+  background: linear-gradient(90deg, #f7f7f7 0%, #f1f1f1 90%);
+}
+
+#reparo {
+  height: 280px;
+}
+
+@media (max-width: 890px) {
+  .barDescContainer {
+    height: auto;
+  }
+
+  .barDesc {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .textDescEmpresa {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .containerColor {
+    height: 1790px;
+  }
+
+  .imgDesc {
+    /* width: 90%; */
+    margin-left: 16%;
+  }
+}
