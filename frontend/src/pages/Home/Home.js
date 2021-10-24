@@ -92,8 +92,8 @@ function Home() {
                                             </div>
                                             <div className="textDescEmpresa" alt="Logo">
                                                 <h3>Reparo Já</h3>
-                                                <p className="projetoP">Venha conhecer o primeiro</p>
-                                                <p className="projetoP2">projeto da empresa Quazar</p>
+                                                <p className="projetoP">Venha conhecer os beneficios de ultilizar o nosso 
+                                                mais novo projeto, feito para conectar clientes e prestadores de serviços</p>
                                                 <button className="button" onClick={openModal}>Saiba Mais...</button>
                                             </div>
                                         </div>

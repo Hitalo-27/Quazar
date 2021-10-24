@@ -33,7 +33,7 @@
 
 .textDescEmpresa {
   margin-top: -1rem;
-  margin-left: 60px;
+  margin-left: 8%;
   margin-right: 25px;
   width: 40rem;
 
@@ -66,10 +66,7 @@
 }
 
 .projetoP{
-  margin-top: 10%;
-}
-
-.projetoP2{
+  margin-top: 8%;
   margin-bottom: 10%;
 }
 
@@ -112,7 +109,8 @@
 
   .textDescEmpresa {
     width: 80%;
-    margin-left: 10%;
+    margin-left: 15%;
+    margin-top: 10%;
   }
 
   .containerColor {
