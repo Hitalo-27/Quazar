@@ -95,7 +95,7 @@ function Modal({ showModal, setShowModal }) {
         <backgroundModal onClick={closeModal} ref={modalRef}>
           <animated.div style={animation}>
             <ModalWrapper showModal={showModal}>
-              <ReactPlayer id="video" controls url="https://www.youtube.com/watch?v=vgm69mJ1ZRc" />
+              <ReactPlayer id="video" controls url="https://www.youtube.com/watch?v=tZVMYBfiBVw" />
               <ModalContent>
                 <h1 className="videoTitle">Projeto Reparo Já</h1>
                 <img className="logo" src='../../../../images/logo.png' alt="Reparo Já" />
