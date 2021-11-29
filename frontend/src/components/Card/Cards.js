@@ -11,7 +11,7 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem 
-                            src="images/Nicolas.jpeg"
+                            src="images/Nickolas.jpeg"
                             text='Nickolas Alexandre, reponsavel por desenvolver o back-end'
                             label='Desenvolvedor back-end e DBA'
                             // path='#'
@@ -44,7 +44,7 @@ function Cards() {
                         />
                         <CardItem 
                             src="images/Rickellme.jpg"
-                            text='Rickellme, responsavel pelo planejamento projeto.'
+                            text='Rikellme, responsavel pelo planejamento projeto.'
                             label='Analista de projeto'
                             // path='#'
                         />
